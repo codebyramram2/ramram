@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-image: url(background/tulips\ \(1\).jpg);
+        height: calc(100vh - 80px);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: 5s;
+
+        animation-name: animate;
+        animation-direction: alternate-reverse;
+        animation-duration: 15s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes animate{
+        0%{
+            background-image: url(background/tulips\ \(1\).jpg);
+        }
+        50%{
+            background-image: url(background/tulips\ \(2\).jpg);
+        }
+        100%{
+            background-image: url(background/tulips\ \(3\).jpg);
+        }
+    }
+
+#div1{
+    width: 40%;
+    margin: 0 auto;
+}
+
+#div1 h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#div2 {
+    width: 20%;
+    float: left;
+}
+
+
+</style>
+
+</head>
+<body>
+    <div id="div1">
+        <h1>Tulips para sa mahal ko <br><br>
+        I'm sorry sa lahat ng mga nagawa ko <br><br>
+        I LOVE YOU SO MUCH!!!</h1>
+    </div>
+
+    <div id="div2">
+        <h1><a href="index.html">back</a></h1>
+        </div>
+        
+</body>
+</html>
